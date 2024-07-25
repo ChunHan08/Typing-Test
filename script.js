@@ -10,7 +10,7 @@ const invalidKeys = 'F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Escape Tab CapsLock 
     ' ',
 );
 const text =
-    'hello there! I hope your day is going well. Thanks for trying out this typing test. Did you know that this project was actully made for Hackclub? Hackclub is a worldwide, students led coding club for teens that strives to provide a confortable and educational place to collaborate with others!';
+    'Moon Star Tree Flower Water Pencil House School Happy Smile Cookie Rain Snow Light Fun Balloon Beach Cup Song Box Car Toy Shirt Bag Mouse Duck Fish Ball Cake Bird Desk Soap Book Doll Hat Cake Tent Cup Fan Bell Milk Clock Quilt Boot Ring Train Truck Spoon Key Bike Boat Leaf Wave Fork';
 const textArr = text.split('');
 const htmlArr = textArr.map((item, index, array) => {
     if (item === ' ') {

@@ -1,5 +1,5 @@
 :root {
-    --nav-color: #f7f7f7;
+    --nav-color: #FFA4A4;
 }
 
 .intro {
@@ -15,7 +15,7 @@
     border-radius: 20px;
     background-color: var(--nav-color);
     padding: 20px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 5px 10px 18px teal;
 }
 .char {
     padding: 0px 1px;
@@ -35,7 +35,7 @@
     box-shadow: 5px 10px 18px #888888;
 }
 .results-list > li {
-    border: 2px solid black;
+    border: 2px solid darkgray;
     background-color: var(--nav-color);
 }
 @media screen and (max-width: 220px) {
